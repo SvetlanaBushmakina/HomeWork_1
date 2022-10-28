@@ -5,16 +5,15 @@ public class App {
     //Дополнительные задания
         //Площадь квадрата
         int a = 15;
-        int s = Square.square(a);
-        System.out.println("Площадь квадрата = " + s);
+        System.out.println("Площадь квадрата = " + Square.squareOfSquare(a));
 
         //Площадь круга
         double r = 3;
-        System.out.println("Площадь круга = " + Circle.circle(r));
+        System.out.println("Площадь круга = " + Circle.squareOfCircle(r));
 
         // Площадь треугольника
         double b = 4;
         double h = 13;
-        System.out.println("Площадь треугольника = " + Triangle.triangle(b, h));
+        System.out.println("Площадь треугольника = " + Triangle.squareOfTriangle(b, h));
     }
 }
